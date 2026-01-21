@@ -49,7 +49,7 @@ Users should be able to:
 
 ### 🔗Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-and-accesible-product-preview-card-html-and-css-lg7N99fnDQ](https://www.frontendmentor.io/solutions/responsive-and-accesible-product-preview-card-html-and-css-lg7N99fnDQ)
 - Live Site URL: [https://berefire.github.io/product-preview-card-component/](https://berefire.github.io/product-preview-card-component/)
 
 ## My process
