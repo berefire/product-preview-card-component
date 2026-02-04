@@ -1,0 +1,72 @@
+:root {
+    /* Colors */
+    --color-white: hsl(0, 0%, 100%);
+    --color-bg-primary: hsl(30, 38%, 92%);
+    --color-bg-button: hsl(158, 36%, 37%);
+    --color-bg-hover: hsl(158, 42%, 18%);
+    --color-bg-h1: hsl(212, 21%, 14%);
+
+    --color-bg-text: hsl(228, 12%, 48%);
+    --color-link: hsl(228, 45%, 30%);
+
+    /* Spacing scale */
+    --space-3xs: 0.3rem;    /* 5 px */
+    --space-2xs: 0.5rem;    /* 8px */
+    --space-xs: 0.75rem;    /* 12px */
+    --space-s: 1rem;        /* 16px */
+    --space-sm: 1.1rem;     /* 18px */
+    --space-m: 1.5rem;      /* 24px */
+    --space-l: 2rem;        /* 32px */
+    --space-xl: 2.5rem;     /* 40px */   
+    --space-2xl: 3rem;      /* 48px */
+    --space-3xl: 8rem;     /* 128px */
+
+    /* Radius */
+    --radius-s: 0.5rem;    /* 8px */
+
+    /* Font families */
+    --font-main: "Montserrat", sans-serif;
+    --font-titles: "Fraunces", serif;
+
+    /* Font weights */
+    --weight-medium: 500;
+    --weight-bold: 700;
+
+    /* Font sizes fixed */
+    --text-fixed-2xs: 0.75rem;  /* 12px */
+    --text-fixed-xs: 0.875rem;  /* 14px */ 
+    --text-fixed-s: 1rem;       /* 16px */
+    --text-fixed-m: 1.25rem;    /* 20px */
+    --text-fixed-l: 1.75rem;    /* 28px */
+    --text-fixed-xl: 2rem;      /* 32px */
+    --text-fixed-2xl: 2.5rem;   /* 40px */
+
+    /* Additional font sizes */
+    --text-fixed-3xs: 0.7rem;    /* 11px */
+    --text-fixed-sm: 0.8rem;     /* 13px */
+    --text-fluid-xs: clamp(var(--text-fixed-3xs), 1vw, var(--text-fixed-sm));  /* 11px - 13px */
+
+    /* Line heights */
+    --leading-title: 1;
+    --leading-category: 1.2;
+    --leading-regular: 1.6; 
+    --leading-footer: 1.4;
+
+    /* Card widths */
+    --card-max: 38rem;      /* 600px */
+    --card-min: 21.875rem;  /* 350px */
+
+    --card-fluid: clamp(var(--card-min), min(90vw, 100%), var(--card-max));
+
+    /* Break points */
+    --bp-m: 30rem;      /* 480px */
+
+
+    /* Decoration thicknesss */
+    --thickness-s: 0.08rem;
+    --thickness-m: 0.12rem;
+
+    /* Undeline-offset */
+    --offset-m: 0.15rem;
+    --offset-s: 0.125rem;    /* 2px */
+}
