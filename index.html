@@ -20,11 +20,16 @@
 <body class="cover">
   <main class="page">
     <section class="product-card">
-      <picture class="product-card__image">
-        <source srcset="./assets/images/image-product-desktop.jpg 1x" media="(min-width: 30rem)">
-        <img src="./assets/images/image-product-mobile.jpg" alt="Chanel perfume product preview" width="700"
-          height="684" loading="lazy" decoding="async">
-      </picture>
+      <figure class="product-card__figure">
+        <picture class="product-card__image">
+          <source srcset="./assets/images/image-product-desktop.jpg 1x" media="(min-width: 30rem)">
+          <img src="./assets/images/image-product-mobile.jpg" alt="Chanel perfume product preview" width="700"
+            height="684" loading="lazy" decoding="async">
+        </picture>
+        <figcaption class="product-card__caption visually-hidden">Product image: Chanel perfume — studio preview.
+        </figcaption>
+      </figure>
+
       <div class="product-card__details box stack">
         <div class="product-card__description stack">
           <p class="product-card__category">Perfume</p>
